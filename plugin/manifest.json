@@ -1,0 +1,11 @@
+{
+	"id": "svelte-sample",
+	"name": "Svelte sample",
+	"version": "1.0.0",
+	"minAppVersion": "0.15.0",
+	"description": "Svelte plugin template.",
+	"author": "Obsidian",
+	"authorUrl": "https://obsidian.md",
+	"fundingUrl": "https://obsidian.md/pricing",
+	"isDesktopOnly": false
+}

@@ -1,0 +1,23 @@
+{
+	"name": "osbidian-plugin-svelte-template",
+	"private": true,
+	"version": "0.0.0",
+	"type": "module",
+	"scripts": {
+		"dev": "node esbuild.config.mjs",
+		"build": "tsc -noEmit -skipLibCheck && node esbuild.config.mjs production",
+		"check": "svelte-check --tsconfig ./tsconfig.json"
+	},
+	"devDependencies": {
+		"@sveltejs/vite-plugin-svelte": "^3.0.2",
+		"@tsconfig/svelte": "^5.0.2",
+		"builtin-modules": "^3.3.0",
+		"esbuild": "^0.20.0",
+		"esbuild-svelte": "^0.8.0",
+		"obsidian": "^1.4.11",
+		"svelte": "^4.2.10",
+		"svelte-check": "^3.6.3",
+		"tslib": "^2.6.2",
+		"typescript": "^5.2.2"
+	}
+}
